@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DepositButton : MonoBehaviour
+public class WithdrawBack : MonoBehaviour
 {
-    public GameObject baseObject;
-    public GameObject depositScene;
+    public GameObject mainObject;
+    public GameObject withdrawScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +18,9 @@ public class DepositButton : MonoBehaviour
         
     }
 
-    public void GoDeposit()
+    public void GoMain()
     {
-        baseObject.SetActive(false);
-        depositScene.SetActive(true);
+        mainObject.SetActive(true);
+        withdrawScene.SetActive(false);
     }
-
 }

@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ATMManager : MonoBehaviour
+public class DepositButton : MonoBehaviour
 {
-    public static ATMManager I;
-    public GameObject baseObject;
+    public GameObject MainObject;
     public GameObject depositScene;
-
-    public void Awake()
-    {
-        I = this;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +20,8 @@ public class ATMManager : MonoBehaviour
 
     public void GoDeposit()
     {
-        baseObject.SetActive(false);
+        MainObject.SetActive(false);
         depositScene.SetActive(true);
     }
+
 }
