@@ -5,8 +5,8 @@ using UnityEngine;
 public class ATMManager : MonoBehaviour
 {
     public static ATMManager I;
-    public GameObject depositButton;
     public GameObject baseObject;
+    public GameObject depositScene;
 
     public void Awake()
     {
@@ -22,11 +22,12 @@ public class ATMManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GoDiposit();
+        
     }
 
-    public void GoDiposit()
+    public void GoDeposit()
     {
         baseObject.SetActive(false);
+        depositScene.SetActive(true);
     }
 }
