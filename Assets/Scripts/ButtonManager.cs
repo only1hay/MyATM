@@ -12,18 +12,6 @@ public class ButtonManager : MonoBehaviour
     public GameObject DScene;
     public GameObject WScene;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void PlusMoney(int money)
     {
         bool _DScene = DScene.activeSelf;
@@ -56,7 +44,6 @@ public class ButtonManager : MonoBehaviour
                 panel.SetActive(true);
             }
         }
-
         balance.text = Intbalance.ToString();
         cash.text = IntCash.ToString();
     }

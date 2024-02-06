@@ -2847,10 +2847,10 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.19339621, g: 0.743734, b: 1, a: 0.2627451}
+  m_SelectionColor: {r: 0.15143289, g: 0.58373195, b: 0.7830189, a: 0.6745098}
   m_Text: 
-  m_CaretBlinkRate: 0.85
-  m_CaretWidth: 1
+  m_CaretBlinkRate: 0.66
+  m_CaretWidth: 2
   m_ReadOnly: 0
   m_RichText: 1
   m_GlobalFontAsset: {fileID: 11400000, guid: 8b11cef85c71e96458133b22f6901bf3, type: 2}
@@ -5262,7 +5262,7 @@ MonoBehaviour:
   m_SelectionColor: {r: 0.19339621, g: 0.743734, b: 1, a: 0.2627451}
   m_Text: 
   m_CaretBlinkRate: 0.85
-  m_CaretWidth: 1
+  m_CaretWidth: 2
   m_ReadOnly: 0
   m_RichText: 1
   m_GlobalFontAsset: {fileID: 11400000, guid: 8b11cef85c71e96458133b22f6901bf3, type: 2}

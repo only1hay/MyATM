@@ -47,7 +47,6 @@ public class DirectInputt : MonoBehaviour
             }
         }
        
-
         balance.text = Intbalance.ToString();
         cash.text = IntCash.ToString();
         directInput.text = "";
