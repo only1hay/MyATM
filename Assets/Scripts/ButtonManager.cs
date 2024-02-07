@@ -46,6 +46,8 @@ public class ButtonManager : MonoBehaviour
         }
         balance.text = Intbalance.ToString();
         cash.text = IntCash.ToString();
+
+        //balance.text = string.Format("{0:#,0}", Intbalance);
     }
 
     public void Check()
